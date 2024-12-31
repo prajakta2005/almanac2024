@@ -1,10 +1,39 @@
-.card{
+/* .card{
     border: 1px solid rgb(255, 255, 255);
     background-color: gray;
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 20px;
-    margin: 10px;
+    margin: 5px;
     text-align: center;
-    max-width: 250px;
+    width: 250px;
     display: inline-block;
 }
+
+   */
+
+   .card-container {
+    display: grid;
+    align-content: center;
+    justify-items: center;
+    grid-template-columns: repeat(6, 1fr); /* 6 columns */
+    grid-template-rows: repeat(2, auto); /* 2 rows with automatic height */
+    grid-gap: 20px; /* Increased space between cards */
+    margin-left: 0%;
+    margin-right: 100px; /* Adjusted left margin to shift the grid left */  
+    padding: 20px; /* Padding within the container */
+    max-width: 240px; /* Optional: Wider container width */
+    
+  
+  }
+  
+  .card {
+    display: flex;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+    width: 200px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
