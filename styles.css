@@ -1,0 +1,145 @@
+/* General Styles */
+body {
+    font-family: "Times New Roman", Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #030217; /* Dark background color */
+    color: #fff; /* White text for contrast */
+    line-height: 2.5; /* Further increased line spacing globally */
+}
+
+/* Header Styles */
+h1, h2, h3 {
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: #fff; /* White headings for contrast */
+    margin-bottom: 15px;
+}
+
+/* Hero Section */
+#hero {
+    background-color: #030217; /* Black background for hero */
+    color: #fff; /* White text color */
+    padding: 20px 0;
+    text-align: center;
+}
+
+#hero h1 {
+    font-size: 3.5rem; /* Increase the size of 'Cosmic January' */
+    margin: 0;
+    letter-spacing: 5px; /* Increase the spacing between the letters */
+}
+
+/* Main Section */
+#main {
+    padding: 40px 20px;
+    background-color: #030217; /* Dark background for content */
+    color: #fff; /* White text for all content */
+    line-height: 2.5; /* Further increased spacing between content */
+}
+
+/* About Section */
+.about {
+    padding: 40px;
+    background-color: #030217; /* Dark background for about section */
+    color: #fff; /* White text for content */
+    line-height: 2.5; /* Further increased line spacing */
+}
+
+.section-title p {
+    font-size: 1.2rem;
+    line-height: 2.5; /* Increased line spacing for section titles */
+    color: #fff; /* White text for content */
+}
+
+/* Timeline Styles */
+#timeline {
+    margin-top: 30px;
+    color: #ffffff;
+}
+
+/* Timeline Event */
+.timeline-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.timeline-item .event-text {
+    flex: 1;
+}
+
+.timeline-item .event-text h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #fff; /* White text for event titles */
+}
+
+.timeline-item .event-text p {
+    font-size: 1.2rem; /* Slightly larger font size */
+    line-height: 2.5; /* Increased line spacing */
+    margin-bottom: 20px; /* Add space below descriptions */
+    color: #fff; /* White text */
+}
+
+.timeline-item .event-image img {
+    width: 100%;
+    max-width: 550px; /* Increased max width */
+    height: auto; /* Keep aspect ratio */
+    border-radius: 12px; /* Rounded corners for images */
+}
+
+/* Centered Content Styles */
+.centeredContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #030217; /* Black background for footer */
+    color: #fff; /* White text color */
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1rem;
+    margin: 0;
+    line-height: 2.5; /* Increased line spacing for footer content */
+}
+
+/* Chrono Timeline */
+.chrono-wrapper {
+    margin-top: 30px;
+    width: 100%;
+}
+
+.chrono-item {
+    cursor: pointer;
+    color: #fff; /* White color for the timeline text */
+    text-decoration: underline;
+    line-height: 2.5; /* Increased spacing for timeline text */
+}
+
+.chrono-item:hover {
+    color: #f0f0f0; /* Slightly lighter white on hover */
+}
+
+.chrono-wrapper .chrono-item {
+    border: 2px solid #fff; /* White border around the timeline */
+    background-color: #fff; /* White background */
+}
+
+.chrono-wrapper .chrono-item:hover {
+    background-color: #f0f0f0; /* Lighter white background on hover */
+}
+
+.chrono-wrapper .chrono-item span {
+    color: #030217; /* Dark text inside the timeline */
+}
